@@ -1,0 +1,42 @@
+.App{
+    height: 100vh;
+    padding-top: 10px;
+    background-color: rgb(124, 33, 0);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.contenedor-calculadora{
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+
+    background-color: rgb(87, 87, 87);
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.pie-de-pagina {
+    font-size: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.fila{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
